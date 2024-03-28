@@ -16,11 +16,11 @@ let package = Package(
     targets: [
         .target(
             name: "Reteno",
+            dependencies: ["Alamofire"],
+            path: "Reteno/Sources",
             resources: [
                 .copy("Resources/PrivacyInfo.xcprivacy")
-            ],
-            dependencies: ["Alamofire"],
-            path: "Reteno/Sources"
+            ]
         )
     ],
     swiftLanguageVersions: [.v5]
