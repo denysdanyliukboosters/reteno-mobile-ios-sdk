@@ -19,7 +19,7 @@ let package = Package(
             dependencies: ["Alamofire"],
             path: "Reteno/Sources",
             resources: [
-                .copy("Resources/PrivacyInfo.xcprivacy")
+                .process("Resources/PrivacyInfo.xcprivacy")
             ]
         )
     ],
