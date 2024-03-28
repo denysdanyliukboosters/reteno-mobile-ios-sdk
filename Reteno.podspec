@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Reteno/Sources/**/*.swift'
   s.swift_versions = ['5']
 
-  s.dependency 'Alamofire', '5.6.2'
+  s.dependency 'Alamofire', '~> 5.6.2'
 
 end
