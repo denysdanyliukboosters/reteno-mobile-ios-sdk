@@ -16,6 +16,9 @@ let package = Package(
     targets: [
         .target(
             name: "Reteno",
+            resources: [
+                .copy("Resources/PrivacyInfo.xcprivacy")
+            ],
             dependencies: ["Alamofire"],
             path: "Reteno/Sources"
         )
